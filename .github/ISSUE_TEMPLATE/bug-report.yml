@@ -1,0 +1,35 @@
+name: Bug report
+description: Tell us what went wrong in Autohand Code Desktop.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Find this in About Autohand. Include the commit if available.
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Operating system and architecture
+      placeholder: macOS 26, Apple Silicon
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and model
+      placeholder: Autohand, Codex, or Claude; model if relevant
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include what you expected and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Screenshots or additional details
+      description: Remove tokens, private paths, and sensitive conversation content before attaching anything.
