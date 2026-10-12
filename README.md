@@ -16,6 +16,12 @@ Bring Autohand, Codex, and Claude into one desktop workspace. Connect your agent
 
 This is the **public home for downloads, release notes, and issues**. The application source is maintained privately. You do not need to clone this repository or build anything to use the app.
 
+<p align="center">
+  <img src="assets/desktop-workspace-glenorchy.png" width="1200" alt="Autohand Desktop workspace against Glenorchy-inspired New Zealand lake and mountain artwork" />
+</p>
+
+[Explore Autohand Desktop](https://autohand.ai/code/desktop/)
+
 ## Download
 
 1. Open the [latest release](https://github.com/autohandai/autohand-code-desktop/releases/latest).
